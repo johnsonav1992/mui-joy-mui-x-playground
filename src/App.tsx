@@ -21,8 +21,14 @@ function App() {
         gap='1rem'
         useFlexGap
       >
-        <DatePicker value={date} onChange={(newVal) => setDate(newVal)}/>
-        <TimePicker value={time} onChange={(newVal) => setTime(newVal)} />
+        <DatePicker 
+          value={date} 
+          onChange={(newVal) => setDate(newVal)}
+        />
+        <TimePicker 
+          value={time} 
+          onChange={(newVal) => setTime(newVal)} 
+        />
       </Stack>
     </LocalizationProvider>
   )
